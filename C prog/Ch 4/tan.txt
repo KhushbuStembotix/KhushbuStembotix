@@ -1,0 +1,45 @@
+// C program to implement
+// the above approach
+#include <math.h>
+#include <stdio.h>
+ 
+// Driver code
+int
+main()
+{
+    
+double
+x;
+    
+double
+result;
+    
+x = 2.3;
+    
+result =
+tan
+(x);
+    
+printf
+(
+"tan(%.2lf) = %.2lf\n"
+,
+           
+x, result);
+    
+x = -2.3;
+    
+result =
+tan
+(x);
+    
+printf
+(
+"tan(%.2lf) = %.2lf\n"
+,
+           
+x, result);
+    
+return
+0;
+}

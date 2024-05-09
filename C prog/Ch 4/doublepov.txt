@@ -1,0 +1,34 @@
+// C program to implement
+// the above approach
+#include <math.h>
+#include <stdio.h>
+ 
+// Driver code
+int
+main()
+{
+    
+double
+base, power, result;
+    
+base = 10.0;
+    
+power = 2.0;
+ 
+    
+// Calculate the result
+    
+result =
+pow
+(base, power);
+    
+printf
+(
+"%.1lf^%.1lf = %.2lf"
+,
+           
+base, power, result);
+    
+return
+0;
+}

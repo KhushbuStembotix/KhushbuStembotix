@@ -1,0 +1,40 @@
+// C program to implement
+// the above approach
+#include <stdio.h>
+#include <string.h>
+ 
+// Driver code
+int
+main()
+{
+    
+char
+a[20] =
+"Program"
+;
+    
+char
+b[20] = {
+"Geeks for Geeks"
+};
+    
+printf
+(
+"Length of string a = %zu \n"
+,
+           
+strlen
+(a));
+    
+printf
+(
+"Length of string b = %zu \n"
+,
+           
+strlen
+(b));
+    
+return
+0;
+}
+

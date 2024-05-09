@@ -1,0 +1,39 @@
+// C program to implement
+// the above approach
+#include <stdio.h>
+#include <string.h>
+ 
+// Driver code
+int
+main()
+{
+    
+char
+str1[100] =
+"STEM "
+,
+         
+str2[100] =
+" botix"
+;
+ 
+    
+// Concatenates str1 and str2
+    
+strcat
+(str1, str2);
+ 
+    
+// Resultant string is stored
+    
+// in str1
+    
+puts
+(str1);
+ 
+    
+return
+0;
+}
+
+
