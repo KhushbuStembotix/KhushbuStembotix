@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+
+// with the use of printf() for multiple outputs in the program
+
+int year = 1997;
+
+int month = 08;
+
+int day = 18;
+
+printf(“Today’s date is: %d-%d-%d”, year, month, day);
+
+return 0;
+
+}

@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+
+// with the use of scanf() for multiple numbers of inputs
+
+int age;
+
+char gender;
+
+printf(“Please enter your gender and then age(F, M or O): “);
+
+scanf(“%d %c”, &gender, &age);
+
+printf(“The information that you entered is: %c and %d”, gender, age);
+
+return 0;
+
+}

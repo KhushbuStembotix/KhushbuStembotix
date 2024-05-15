@@ -1,0 +1,11 @@
+char[] gets(char[]);  
+Reading string using gets()
+#include<stdio.h>  
+void main ()  
+{  
+    char s[30];  
+    printf("Enter the string? ");  
+    gets(s);  
+    printf("You entered %s",s);  
+}  
+

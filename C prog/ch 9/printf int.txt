@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+
+int q = 50;
+
+// with the use of printf()
+
+printf(“The given value of q is: %d”, q);
+
+return 0;
+
+}

@@ -1,0 +1,9 @@
+printf("message to be display!!!");
+
+Example Program
+#include<stdio.h>
+#include<conio.h>
+void main(){
+
+   printf("Hello! Welcome to btechsmartclass!!!");   
+}

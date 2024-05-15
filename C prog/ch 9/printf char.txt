@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+
+// with the use of printf()
+
+char age = ’43’;
+
+printf(“Today is Clara’s birthday and she is: %c”, age);
+
+return 0;
+
+}

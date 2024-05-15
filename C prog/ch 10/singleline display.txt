@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main(){
+   printf("Welcome to ");
+   printf("btechsmartclass ");
+   printf("the perfect website for learning");   
+
+}
+

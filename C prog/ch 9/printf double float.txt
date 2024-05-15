@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+
+// with the use of printf()
+
+double num_11 = 15556522.0978678;
+
+float num_22 = 15.50;
+
+printf(“The value of the num_11 is: %f \n”, num_11);
+
+printf(“The value of num_22 is: %lf”, num_22);
+
+return 0;
+
+}
+

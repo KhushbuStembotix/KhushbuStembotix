@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+
+// with the use of printf()
+
+printf(“Let us go home tonight”);
+
+return 0;
+
+}
+

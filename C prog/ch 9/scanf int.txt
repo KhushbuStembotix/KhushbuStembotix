@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+
+// with the use of scanf()
+
+int input_from_user;
+
+printf(“Hello, please enter a digit here: “);
+
+scanf(“%d”, &input_from_user);
+
+printf(“The digit that you entered is: %d”, input_from_user);
+
+return 0;
+
+}
