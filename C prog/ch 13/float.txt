@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    float f = 3.14f;
+
+    printf("Float f: %f\n", f); // Outputs 3.140000
+
+    return 0;
+}

@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+    bool b1 = true;
+    char c = 'A';
+    int i = 123;
+    float f = 3.14f;
+    double d = 3.141592653589793;
+    signed int si = -456;
+    unsigned int ui = 789;
+    long l = 123456789L;
+    short s = 12345;
+
+    printf("Boolean b1: %d\n", b1); // Outputs 1
+    printf("Char c: %c\n", c); // Outputs A
+    printf("ASCII value of c: %d\n", c); // Outputs 65
+    printf("Integer i: %d\n", i); // Outputs 123
+    printf("Float f: %f\n", f); // Outputs 3.140000
+    printf("Double d: %lf\n", d); // Outputs 3.141593
+    printf("Signed int si: %d\n", si); // Outputs -456
+    printf("Unsigned int ui: %u\n", ui); // Outputs 789
+    printf("Long l: %ld\n", l); // Outputs 123456789
+    printf("Short s: %hd\n", s); // Outputs 12345
+
+    return 0;
+}

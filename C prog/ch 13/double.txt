@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    double d = 3.141592653589793;
+
+    printf("Double d: %lf\n", d); // Outputs 3.141593 (default precision)
+
+    return 0;
+}
+

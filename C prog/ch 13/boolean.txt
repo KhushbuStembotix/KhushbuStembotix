@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+    bool b1 = true;  // Or use _Bool b1 = 1;
+    bool b2 = false; // Or use _Bool b2 = 0;
+
+    printf("Boolean b1: %d\n", b1); // Outputs 1
+    printf("Boolean b2: %d\n", b2); // Outputs 0
+
+    return 0;
+}

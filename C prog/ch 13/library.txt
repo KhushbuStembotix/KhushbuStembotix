@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double result = sqrt(16.0); // Using the math library function to calculate square root
+    printf("The square root of 16 is %lf\n", result);
+    return 0;
+}
+

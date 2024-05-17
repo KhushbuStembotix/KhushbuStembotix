@@ -1,0 +1,17 @@
+ #include <stdio.h>
+
+   int main() {
+       int x = 10;
+       switch (x) {
+           case 0:
+               printf("x is zero\n");
+               break;
+           case 10:
+               printf("x is ten\n");
+               break;
+           default:
+               printf("x is neither zero nor ten\n");
+               break;
+       }
+       return 0;
+   }

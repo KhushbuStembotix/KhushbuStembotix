@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    signed int si = -456;
+
+    printf("Signed int si: %d\n", si); // Outputs -456
+
+    return 0;
+}
+

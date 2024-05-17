@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    char str[100];
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin); // Safe alternative to gets
+    printf("You entered: %s", str); // No need for puts, as it adds a newline automatically
+    return 0;
+}
+

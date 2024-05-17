@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    char c = 'A';
+
+    printf("Char c: %c\n", c); // Outputs A
+    printf("ASCII value of c: %d\n", c); // Outputs 65
+
+    return 0;
+}
+

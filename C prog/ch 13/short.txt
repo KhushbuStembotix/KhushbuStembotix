@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    short s = 12345;
+
+    printf("Short s: %hd\n", s); // Outputs 12345
+
+    return 0;
+}
